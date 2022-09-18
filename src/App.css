@@ -44,7 +44,8 @@ input {
   font-size: 1.8rem;
   line-height: 1.42857143;
   margin-top: 2rem;
-  color: rgb(58, 57, 57);
+  color: #033c78;
+  font-weight: 700;
   background-color: #fff;
   background-image: none;
   border: 0.1rem solid #ccc;
@@ -129,8 +130,9 @@ input:focus {
 
 .showItems .eachItem h3 {
   padding-left: 1rem;
-  font-size: 1.6rem;
   color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .fa-trash-alt,
@@ -165,9 +167,11 @@ input:focus {
 }
 
 .eachItem:hover h3 {
-  color: rgb(85, 41, 220);
+  color: rgb(85, 41, 220);    font-weight: 600;
 }
-
+.todo-btn i:hover {
+  transform: scale(1.1);
+}
 .btn {
   letter-spacing: 0.1em;
   cursor: pointer;
@@ -198,7 +202,7 @@ input:focus {
 .effect04 span {
   margin: 0 auto;
   transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
-  transition-duration: 0.4s;
+  transition-duration: 0.4s;    font-weight: 900;
 }
 
 .effect04:hover {

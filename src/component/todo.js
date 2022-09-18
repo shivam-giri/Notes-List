@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import todo from "../images/todo.svg";
-import "../App.css"
-
+// import todo from "./images/todo.svg";
+import "../App.css";
 
 // to get the data from LS
 
@@ -58,7 +57,7 @@ const Todo = () => {
     }
 
 // edit the item
-//     When user clikc on edit button 
+// When user clikc on edit button 
 
 // 1: get the id and name of the data which user clicked to edit
 // 2: set the toggle mode to change the submit button into edit button
@@ -96,12 +95,12 @@ const Todo = () => {
             <div className="main-div">
                 <div className="child-div">
                     <figure>
-                        <img src={todo} alt="todologo" />
-                        <figcaption>Add Your List Here ✌</figcaption>
+                        {/* <img src={todo} alt="todologo" /> */}
+                        <figcaption>Add Your Notes List Here ✌</figcaption>
                     </figure>
 
                     <div className="addItems">
-                        <input type="text" placeholder="✍ Add Items..."
+                        <input type="text" placeholder="✍ Add your *NOTES here..."
                            value={inputData} 
                            onChange={(e) => setInputData(e.target.value) }
                         />
@@ -142,7 +141,3 @@ const Todo = () => {
 }
 
 export default Todo
-
-
- //TODO Please Subscribe to ThapaTechnical Youtube Channel
- //TODO Click Here: https://www.youtube.com/thapatechnical
